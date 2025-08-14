@@ -19,7 +19,7 @@ public class OrderController {
     private final OrderService orderService;
 
     @PostMapping("/identical")
-    @Operation(summary = "Imitate several number identical orders with price of 1")
+    @Operation(summary = "Imitate several number of identical orders with price of 1")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Process successful", content = @Content(schema = @Schema(implementation = OrderProcessingResult.class))),
             @ApiResponse(responseCode = "500", description = "Internal server error", content = @Content(schema = @Schema(implementation = ExceptionResponse.class)))
