@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: order-access
+
+server:
+  port: 8081
+
+springdoc:
+  swagger-ui:
+    operations-sorter: method
+    tags-sorter: alpha
+    doc-expansion: none
