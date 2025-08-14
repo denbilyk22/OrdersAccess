@@ -12,8 +12,8 @@
     <groupId>com.project</groupId>
     <artifactId>order-access</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>order-access</name>
-    <description>order-access</description>
+    <name>Orders Access</name>
+    <description>Orders Access API</description>
 
     <properties>
         <java.version>17</java.version>
@@ -33,6 +33,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>4.3.0</version>
         </dependency>
 
         <dependency>

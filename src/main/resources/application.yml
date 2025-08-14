@@ -10,3 +10,6 @@ springdoc:
     operations-sorter: method
     tags-sorter: alpha
     doc-expansion: none
+
+urls:
+  orders-api: http://localhost:8080
